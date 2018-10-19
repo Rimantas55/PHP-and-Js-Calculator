@@ -11,8 +11,8 @@ function sum() {
 	var b = parseInt(input_b.value);
 
 	if (a > 100 || b > 100){
-		alert("Number A or Number B is above 100");
-		input_a.style.color = 'red';
+				alert("Number A or Number B is above 100");
+input_a.style.color = 'red';
 		input_b.style.color = 'red';
 	} else {
 
@@ -26,6 +26,8 @@ function sum() {
 	}
 }
 
+
+/* naujo mygtuko kuris isvalo reiksmes funkcijos sukurimas*/
 function empty() {
 	result.innerHTML = 'X';
 	input_a.value = 0;

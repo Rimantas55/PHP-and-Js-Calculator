@@ -1,38 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>skaiciuotuvas</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="skaiciuotuvas.css">
+		<title>Calculator</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 
-<div class="container">
-	<div class="row" id="header">
-		<div class="col">
-			<div>
-				<input id="number_a" id="input_a" type="text" name="form-control" placeholder="Number A"> </br />
-				<input id="number_b" id="input_b" type="text" name="form-control" placeholder="number A">
-
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h3>PHP Calculator</h3> 
+			</div>
+			<!-- JS CALCULATOR -->
+			<div class="col-md-6">
+				<h3>Javascript Calculator</h3> 
 			</div>
 		</div>
-		<div class="col">
-			<div>
-				<button class="btn btn-dark btn-block" onclick="sum()">Migtukas</button>
-				<button class="btn btn-danger btn-block" onclick="empty()">Migtukas</button>
-			</div>
-		</div>
-		<div class="col" >
-			<div id="result">
-				adsasdasd
-			</div>
-		</div>
-</div>
+	</div>
 
-
-
-<script src="skaiciuotuvas.js"></script>
-
+	<script src="script.js"></script>
 
 </body>
 </html>
